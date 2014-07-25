@@ -9,6 +9,7 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Text;
+using ISIS.GME.Dsml.SignLanguage;
 
 namespace GenericDecorator
 {
@@ -16,6 +17,70 @@ namespace GenericDecorator
 
     class DefaultBitmapDecorator : DecoratorUiBase
     {
+        protected string GetStreetSignIcon(IMgaFCO ss)
+        {
+            string icon_map = ss.StrAttrByName["StreetSignIconMap"].Trim();
+            string street_sign = ss.StrAttrByName["StreetSignTypes"].Trim();
+
+            // expect list of form <key string> : <value string>
+            var splitResult = icon_map.Split(new string[] { System.Environment.NewLine, "\n" },
+                System.StringSplitOptions.RemoveEmptyEntries);
+
+            foreach (string line in splitResult)
+            {
+                string[] halves = line.Split(new Char[] { ':' }, 2);
+                if (halves[0].Trim() == street_sign)
+                    return halves[1].Trim();
+            }
+
+            return ss.RegistryValue["icon"]; // default icon
+        }
+
+        protected string GetFloodSignIcon(IMgaFCO fs)
+        {
+            string icon_map = fs.StrAttrByName["FloodIconMap"].Trim();
+            double flood_level = fs.FloatAttrByName["FloodLevel"];
+
+            // expect list of form <key string> : <value string>
+            var splitResult = icon_map.Split(new string[] { System.Environment.NewLine, "\n" },
+                System.StringSplitOptions.RemoveEmptyEntries);
+
+            string iconStr = "";
+            foreach (string line in splitResult.Reverse()) // go in decreasing order
+            {
+                var halves = line.Split(new Char[] { ':' }, 2);
+                double level = Convert.ToDouble(halves[0].Trim());
+                iconStr = halves[1].Trim();
+
+                if (flood_level >= level )
+                    return iconStr;
+            }
+
+            return iconStr; // if flood_level is smaller than them all
+        }
+
+        protected string GetParkingSignIcon(IMgaFCO ps)
+        {
+            string icon_map = ps.StrAttrByName["ParkingIconMap"].Trim();
+            bool parking_val = ps.BoolAttrByName["Parking"];
+
+            // expect list of form <key string> : <value string>
+            var splitResult = icon_map.Split(new string[] { System.Environment.NewLine, "\n" },
+                System.StringSplitOptions.RemoveEmptyEntries);
+
+            foreach (string line in splitResult)
+            {
+                var halves = line.Split(new Char[] { ':' }, 2);
+                var lhs_bool = Convert.ToBoolean(halves[0].Trim());
+
+                if (parking_val == lhs_bool)
+                {
+                    return halves[1].Trim();
+                }
+            }
+
+            return ps.RegistryValue["icon"]; // default icon
+        }
 
         protected readonly string defaultIconStr = string.Format("GenericDecorator.Images.{0}", "generalicon.emf");
 
@@ -31,18 +96,16 @@ namespace GenericDecorator
         }
 
         protected Image image { get; set; }
+        protected Image default_image { get; set; }
 
         protected EmbellishType Embellish;
 
         protected string fcoName;
         protected IBackroundDraw backgrounddraw;
 
-
         Image refImage=null;
 
-
         private Type formType;
-
 
         Image LoadImage(string resourceName)
         {
@@ -52,7 +115,7 @@ namespace GenericDecorator
             {
                 return Image.FromStream(imageStream);
             }
-
+            
             return null;
         }
         ~DefaultBitmapDecorator()
@@ -60,24 +123,39 @@ namespace GenericDecorator
 
         }
 
+        string[] search_paths;
         public DefaultBitmapDecorator(GenericDecorator decorator,
             IntPtr parentHwnd, MgaFCO fco, MgaMetaFCO metafco, MgaProject project, IBackroundDraw backgrounddraw, Type formType = null)
             : base(parentHwnd, fco, project, formType != null)
         {
-    
-
             string iconName;
             decorator.GetPreference(out iconName, "icon");
+            string defaultIconName = iconName;
+
+            if (fco != null)
+            {
+                string kind = fco.Meta.Name;
+                if (kind == "ParkingSign")
+                {
+                    iconName = GetParkingSignIcon(fco);
+                }
+                else if (kind == "FloodSign")
+                {
+                    iconName = GetFloodSignIcon(fco);
+                }
+                else if (kind == "StreetSign")
+                {
+                    iconName = GetStreetSignIcon(fco);
+                }
+                // else fall through to the default icon
+            }
 
             this.backgrounddraw = backgrounddraw;
 
-
             this.formType = formType;
-
 
             string projectDir = Path.GetDirectoryName(project.ProjectConnStr.Substring(4));
             string paradigmDir = Path.GetDirectoryName(project.ParadigmConnStr.Substring(4));
-
 
             MgaRegistrar registrar = new MgaRegistrar();
             StringBuilder iconPath = new StringBuilder(registrar.IconPath[regaccessmode_enum.REGACCESS_BOTH]);
@@ -85,9 +163,9 @@ namespace GenericDecorator
             iconPath.Replace("$PROJECTDIR", projectDir);
             iconPath.Replace("$PARADIGMDIR", paradigmDir);
 
-            string[] paths = iconPath.ToString().Split(';');
+            search_paths = iconPath.ToString().Split(';');
 
-            foreach (string path in paths)
+            foreach (string path in search_paths)
             {
                 string fileName = Path.Combine(path, iconName);
                 if (File.Exists(fileName))
@@ -97,9 +175,23 @@ namespace GenericDecorator
                 }
             }
 
+            if (image == null) // look at the default
+            {
+                foreach (string path in search_paths)
+                {
+                    string fileName = Path.Combine(path, defaultIconName);
+                    if (File.Exists(fileName))
+                    {
+                        image = Image.FromFile(fileName);
+                        break;
+                    }
+                }
+            }
+
             if (image == null)
             {
                 image = LoadImage(defaultIconStr);
+                default_image = image;
             }
 
             if (fco != null)
@@ -143,9 +235,13 @@ namespace GenericDecorator
             else
             {
                 fcoName = String.IsNullOrEmpty(metafco.DisplayedName) ? metafco.Name : metafco.DisplayedName;
-                //fcoName = metafco.Name;
             }
 
+
+        }
+
+        public override void SetParam(string Name, object value)
+        {
 
         }
 
@@ -246,16 +342,8 @@ namespace GenericDecorator
 
         public override void GetPreferredSize(out int sizex, out int sizey)
         {
-            if (backgrounddraw != null)
-            {
-                sizex = backgrounddraw.Dimensions.Width;
-                sizey = backgrounddraw.Dimensions.Height;
-            }
-            else
-            {
-                sizex = image.Width;
-                sizey = image.Height;
-            }
+            sizex = image.Width;
+            sizey = image.Height;
         }
 
     }

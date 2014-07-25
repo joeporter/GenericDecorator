@@ -12,6 +12,8 @@ namespace GenericDecorator
 {
     class AtomBackgroundDraw : BackgroundDrawBase
     {
+        public int x_size { get; set; }
+        public int y_size { get; set; }
 
         public override void DrawBackground(System.Drawing.Graphics g, System.Drawing.Point center, bool active)
         {

@@ -1,0 +1,1077 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ISIS.GME.Dsml.SignLanguage</name>
+    </assembly>
+    <members>
+        <member name="T:ISIS.GME.Dsml.SignLanguage.Classes.RootFolder">
+             <summary>
+            <para>This API code is compatible with the following paradigm:</para>
+            <para> - Name: SignLanguage</para>
+            <para> - Guid: {344D86A3-E082-4C85-AE04-B49EF1C905DA}</para>
+            <para>Additional information: </para>
+            <para> - Date: 7/21/2014 11:46:24 AM</para>
+            <para> - Author: </para>
+            <para> - Version: </para>
+            <para> - Comment: </para>
+            </summary>
+            
+             <summary>
+             </summary>
+        </member>
+        <member name="T:ISIS.GME.Dsml.SignLanguage.Interfaces.RootFolder">
+             <summary>
+            <para>This API code is compatible with the following paradigm:</para>
+            <para> - Name: SignLanguage</para>
+            <para> - Guid: {344D86A3-E082-4C85-AE04-B49EF1C905DA}</para>
+            <para>Additional information: </para>
+            <para> - Date: 7/21/2014 11:46:24 AM</para>
+            <para> - Author: </para>
+            <para> - Version: </para>
+            <para> - Comment: </para>
+            </summary>
+            
+             <summary>
+             <para>RootFolder interface</para>
+             </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Interfaces.RootFolder.Info">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Interfaces.RootFolder.MetaRefs">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Interfaces.RootFolder.LibraryName">
+             <summary>
+            <para>Contains the library's connection string if this object is an attached library.</para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Interfaces.RootFolder.LibraryCollection">
+             <summary>
+            <para>Contains the domain specific attached libraries.</para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Interfaces.RootFolder.Children">
+             <summary>
+            <para>Contains the domain specific child objects.</para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Interfaces.RootFolder.AllChildren">
+             <summary>
+            <para>Contains all the domain specific child objects.</para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="M:ISIS.GME.Dsml.SignLanguage.Classes.RootFolder.GetRootFolder(GME.MGA.MgaProject)">
+            Gets the root folder form an Mga project.
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Classes.RootFolder.MetaRefs">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Classes.RootFolder.Info">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Classes.RootFolder.LibraryName">
+             <summary>
+            <para>Contains the library's connection string if this object is an attached library.</para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Classes.RootFolder.LibraryCollection">
+             <summary>
+            <para>Contains the domain specific attached libraries.</para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Classes.RootFolder.ParentContainer">
+             <para>Represents the domain specific parent container.</para>
+            <para></para>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Classes.RootFolder.ISIS#GME#Dsml#SignLanguage#Interfaces#RootFolder#Children">
+             <summary>
+            <para>Contains the domain specific child objects.</para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Classes.RootFolder.AllChildren">
+             <summary>
+            <para>Contains all the domain specific child objects.</para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="T:ISIS.GME.Dsml.SignLanguage.Classes.RootFolder.InfoClass">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Classes.RootFolder.InfoClass.ParadigmGuid">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Classes.RootFolder.InfoClass.ParadigmName">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Classes.RootFolder.InfoClass.ParadigmVersion">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="T:ISIS.GME.Dsml.SignLanguage.Classes.RootFolder.ChildrenClass">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="M:ISIS.GME.Dsml.SignLanguage.Classes.RootFolder.ChildrenClass.#ctor(GME.MGA.MgaFolder)">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="M:ISIS.GME.Dsml.SignLanguage.Classes.RootFolder.ChildrenClass.#ctor(GME.MGA.MgaModel)">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Classes.RootFolder.ChildrenClass.SignsCollection">
+             <summary>
+            <para>
+            Retirves with specific kinds in the container.
+            </para>
+            </summary>
+            
+        </member>
+        <member name="T:ISIS.GME.Dsml.SignLanguage.Classes.ParkingSign">
+            <summary>
+            </summary>
+        </member>
+        <member name="T:ISIS.GME.Dsml.SignLanguage.Interfaces.ParkingSign">
+            <summary>
+            <para>ParkingSign interface</para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Interfaces.ParkingSign.AllSrcConnections">
+             <summary>
+            <para>Contains the domain specific source end point of this connection.</para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Interfaces.ParkingSign.SrcConnections">
+             <summary>
+            <para>Retrieves all connections, which have this object as a DESTINATION.</para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Interfaces.ParkingSign.AllDstConnections">
+             <summary>
+            <para>Contains the domain specific destination end point of this connection.</para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Interfaces.ParkingSign.DstConnections">
+             <summary>
+            <para>Retrieves all connections, which have this object as a SOURCE.</para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Interfaces.ParkingSign.ArcheType">
+             <summary>
+            <para>the object that is at the farthest position within the chain of base objects (i.e. the one which is not derived from anything).</para>
+            <para> NULL if the object is not derived.</para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Interfaces.ParkingSign.Attributes">
+             <summary>
+            <para>Contains the domain specific attributes.</para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Interfaces.ParkingSign.AllReferencedBy">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Interfaces.ParkingSign.ReferencedBy">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Interfaces.ParkingSign.AllMembersOfSet">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Interfaces.ParkingSign.MembersOfSet">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="M:ISIS.GME.Dsml.SignLanguage.Classes.ParkingSign.Create(ISIS.GME.Dsml.SignLanguage.Interfaces.Signs,ISIS.GME.Dsml.SignLanguage.Classes.ParkingSign.DefaultRole)">
+            Creates an object in a container.
+        </member>
+        <member name="M:ISIS.GME.Dsml.SignLanguage.Classes.ParkingSign.Cast(GME.MGA.IMgaObject)">
+            <summary>
+            Gets a domain specific object from a COM object.
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Classes.ParkingSign.ISIS#GME#Dsml#SignLanguage#Interfaces#ParkingSign#ArcheType">
+             <summary>
+            <para>the object that is at the farthest position within the chain of base objects (i.e. the one which is not derived from anything).</para>
+            <para> NULL if the object is not derived.</para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Classes.ParkingSign.AllSrcConnections">
+            
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Classes.ParkingSign.AllDstConnections">
+            
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Classes.ParkingSign.ParentContainer">
+             <summary>
+            <para>Represents the domain specific parent container.</para>
+            <para></para>
+            <para>
+            ----------------------------------------------------
+            </para>
+            <para>
+            The parent could be:
+            </para>
+            <para>
+            - Signs [Model]
+            </para>
+            </summary>
+            
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Classes.ParkingSign.ISIS#GME#Dsml#SignLanguage#Interfaces#ParkingSign#Attributes">
+             <summary>
+            <para>Contains the domain specific attributes.</para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Classes.ParkingSign.AllReferencedBy">
+            
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Classes.ParkingSign.AllMembersOfSet">
+            
+        </member>
+        <member name="T:ISIS.GME.Dsml.SignLanguage.Classes.ParkingSign.DefaultRole">
+            Default role
+        </member>
+        <member name="F:ISIS.GME.Dsml.SignLanguage.Classes.ParkingSign.DefaultRole.ParkingSign">
+            <summary>
+            Default role
+            </summary>
+        </member>
+        <member name="T:ISIS.GME.Dsml.SignLanguage.Classes.ParkingSign.Roles">
+             <summary>
+            <para>WARNING: This part is still under developement.</para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="T:ISIS.GME.Dsml.SignLanguage.Classes.ParkingSign.Roles.Signs">
+            Roles for Signs parent.
+        </member>
+        <member name="F:ISIS.GME.Dsml.SignLanguage.Classes.ParkingSign.Roles.Signs.ParkingSign">
+            <summary>
+            ParkingSign
+            </summary>
+        </member>
+        <member name="T:ISIS.GME.Dsml.SignLanguage.Classes.ParkingSign.SrcConnectionsClass">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="M:ISIS.GME.Dsml.SignLanguage.Classes.ParkingSign.SrcConnectionsClass.#ctor(GME.MGA.IMgaObject)">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="T:ISIS.GME.Dsml.SignLanguage.Classes.ParkingSign.DstConnectionsClass">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="M:ISIS.GME.Dsml.SignLanguage.Classes.ParkingSign.DstConnectionsClass.#ctor(GME.MGA.IMgaObject)">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="T:ISIS.GME.Dsml.SignLanguage.Classes.ParkingSign.AttributesClass">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="M:ISIS.GME.Dsml.SignLanguage.Classes.ParkingSign.AttributesClass.#ctor(GME.MGA.IMgaObject)">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Classes.ParkingSign.AttributesClass.ParkingIconMap">
+            <summary>
+            <para>ParkingIconMap attribute</para>
+            <para>Map from boolean to icon filename (boolean value: icon_filename).</para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Classes.ParkingSign.AttributesClass.Parking">
+            <summary>
+            <para>Parking attribute</para>
+            </summary>
+        </member>
+        <member name="T:ISIS.GME.Dsml.SignLanguage.Classes.ParkingSign.ReferencedByClass">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="M:ISIS.GME.Dsml.SignLanguage.Classes.ParkingSign.ReferencedByClass.#ctor(GME.MGA.IMgaObject)">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="T:ISIS.GME.Dsml.SignLanguage.Classes.ParkingSign.MembersOfSetClass">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="M:ISIS.GME.Dsml.SignLanguage.Classes.ParkingSign.MembersOfSetClass.#ctor(GME.MGA.IMgaObject)">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="T:ISIS.GME.Dsml.SignLanguage.Classes.FloodSign">
+            <summary>
+            </summary>
+        </member>
+        <member name="T:ISIS.GME.Dsml.SignLanguage.Interfaces.FloodSign">
+            <summary>
+            <para>FloodSign interface</para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Interfaces.FloodSign.AllSrcConnections">
+             <summary>
+            <para>Contains the domain specific source end point of this connection.</para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Interfaces.FloodSign.SrcConnections">
+             <summary>
+            <para>Retrieves all connections, which have this object as a DESTINATION.</para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Interfaces.FloodSign.AllDstConnections">
+             <summary>
+            <para>Contains the domain specific destination end point of this connection.</para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Interfaces.FloodSign.DstConnections">
+             <summary>
+            <para>Retrieves all connections, which have this object as a SOURCE.</para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Interfaces.FloodSign.ArcheType">
+             <summary>
+            <para>the object that is at the farthest position within the chain of base objects (i.e. the one which is not derived from anything).</para>
+            <para> NULL if the object is not derived.</para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Interfaces.FloodSign.Attributes">
+             <summary>
+            <para>Contains the domain specific attributes.</para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Interfaces.FloodSign.AllReferencedBy">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Interfaces.FloodSign.ReferencedBy">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Interfaces.FloodSign.AllMembersOfSet">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Interfaces.FloodSign.MembersOfSet">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="M:ISIS.GME.Dsml.SignLanguage.Classes.FloodSign.Create(ISIS.GME.Dsml.SignLanguage.Interfaces.Signs,ISIS.GME.Dsml.SignLanguage.Classes.FloodSign.DefaultRole)">
+            Creates an object in a container.
+        </member>
+        <member name="M:ISIS.GME.Dsml.SignLanguage.Classes.FloodSign.Cast(GME.MGA.IMgaObject)">
+            <summary>
+            Gets a domain specific object from a COM object.
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Classes.FloodSign.ISIS#GME#Dsml#SignLanguage#Interfaces#FloodSign#ArcheType">
+             <summary>
+            <para>the object that is at the farthest position within the chain of base objects (i.e. the one which is not derived from anything).</para>
+            <para> NULL if the object is not derived.</para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Classes.FloodSign.AllSrcConnections">
+            
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Classes.FloodSign.AllDstConnections">
+            
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Classes.FloodSign.ParentContainer">
+             <summary>
+            <para>Represents the domain specific parent container.</para>
+            <para></para>
+            <para>
+            ----------------------------------------------------
+            </para>
+            <para>
+            The parent could be:
+            </para>
+            <para>
+            - Signs [Model]
+            </para>
+            </summary>
+            
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Classes.FloodSign.ISIS#GME#Dsml#SignLanguage#Interfaces#FloodSign#Attributes">
+             <summary>
+            <para>Contains the domain specific attributes.</para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Classes.FloodSign.AllReferencedBy">
+            
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Classes.FloodSign.AllMembersOfSet">
+            
+        </member>
+        <member name="T:ISIS.GME.Dsml.SignLanguage.Classes.FloodSign.DefaultRole">
+            Default role
+        </member>
+        <member name="F:ISIS.GME.Dsml.SignLanguage.Classes.FloodSign.DefaultRole.FloodSign">
+            <summary>
+            Default role
+            </summary>
+        </member>
+        <member name="T:ISIS.GME.Dsml.SignLanguage.Classes.FloodSign.Roles">
+             <summary>
+            <para>WARNING: This part is still under developement.</para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="T:ISIS.GME.Dsml.SignLanguage.Classes.FloodSign.Roles.Signs">
+            Roles for Signs parent.
+        </member>
+        <member name="F:ISIS.GME.Dsml.SignLanguage.Classes.FloodSign.Roles.Signs.FloodSign">
+            <summary>
+            FloodSign
+            </summary>
+        </member>
+        <member name="T:ISIS.GME.Dsml.SignLanguage.Classes.FloodSign.SrcConnectionsClass">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="M:ISIS.GME.Dsml.SignLanguage.Classes.FloodSign.SrcConnectionsClass.#ctor(GME.MGA.IMgaObject)">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="T:ISIS.GME.Dsml.SignLanguage.Classes.FloodSign.DstConnectionsClass">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="M:ISIS.GME.Dsml.SignLanguage.Classes.FloodSign.DstConnectionsClass.#ctor(GME.MGA.IMgaObject)">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="T:ISIS.GME.Dsml.SignLanguage.Classes.FloodSign.AttributesClass">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="M:ISIS.GME.Dsml.SignLanguage.Classes.FloodSign.AttributesClass.#ctor(GME.MGA.IMgaObject)">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Classes.FloodSign.AttributesClass.FloodIconMap">
+            <summary>
+            <para>FloodIconMap attribute</para>
+            <para>List of flood levels and icons ( level (in ft): icon filename ).</para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Classes.FloodSign.AttributesClass.FloodLevel">
+            <summary>
+            <para>FloodLevel attribute</para>
+            <para>Enter flood level in feet.</para>
+            </summary>
+        </member>
+        <member name="T:ISIS.GME.Dsml.SignLanguage.Classes.FloodSign.ReferencedByClass">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="M:ISIS.GME.Dsml.SignLanguage.Classes.FloodSign.ReferencedByClass.#ctor(GME.MGA.IMgaObject)">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="T:ISIS.GME.Dsml.SignLanguage.Classes.FloodSign.MembersOfSetClass">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="M:ISIS.GME.Dsml.SignLanguage.Classes.FloodSign.MembersOfSetClass.#ctor(GME.MGA.IMgaObject)">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="T:ISIS.GME.Dsml.SignLanguage.Classes.StreetSign">
+            <summary>
+            </summary>
+        </member>
+        <member name="T:ISIS.GME.Dsml.SignLanguage.Interfaces.StreetSign">
+            <summary>
+            <para>StreetSign interface</para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Interfaces.StreetSign.AllSrcConnections">
+             <summary>
+            <para>Contains the domain specific source end point of this connection.</para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Interfaces.StreetSign.SrcConnections">
+             <summary>
+            <para>Retrieves all connections, which have this object as a DESTINATION.</para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Interfaces.StreetSign.AllDstConnections">
+             <summary>
+            <para>Contains the domain specific destination end point of this connection.</para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Interfaces.StreetSign.DstConnections">
+             <summary>
+            <para>Retrieves all connections, which have this object as a SOURCE.</para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Interfaces.StreetSign.ArcheType">
+             <summary>
+            <para>the object that is at the farthest position within the chain of base objects (i.e. the one which is not derived from anything).</para>
+            <para> NULL if the object is not derived.</para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Interfaces.StreetSign.Attributes">
+             <summary>
+            <para>Contains the domain specific attributes.</para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Interfaces.StreetSign.AllReferencedBy">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Interfaces.StreetSign.ReferencedBy">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Interfaces.StreetSign.AllMembersOfSet">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Interfaces.StreetSign.MembersOfSet">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="M:ISIS.GME.Dsml.SignLanguage.Classes.StreetSign.Create(ISIS.GME.Dsml.SignLanguage.Interfaces.Signs,ISIS.GME.Dsml.SignLanguage.Classes.StreetSign.DefaultRole)">
+            Creates an object in a container.
+        </member>
+        <member name="M:ISIS.GME.Dsml.SignLanguage.Classes.StreetSign.Cast(GME.MGA.IMgaObject)">
+            <summary>
+            Gets a domain specific object from a COM object.
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Classes.StreetSign.ISIS#GME#Dsml#SignLanguage#Interfaces#StreetSign#ArcheType">
+             <summary>
+            <para>the object that is at the farthest position within the chain of base objects (i.e. the one which is not derived from anything).</para>
+            <para> NULL if the object is not derived.</para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Classes.StreetSign.AllSrcConnections">
+            
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Classes.StreetSign.AllDstConnections">
+            
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Classes.StreetSign.ParentContainer">
+             <summary>
+            <para>Represents the domain specific parent container.</para>
+            <para></para>
+            <para>
+            ----------------------------------------------------
+            </para>
+            <para>
+            The parent could be:
+            </para>
+            <para>
+            - Signs [Model]
+            </para>
+            </summary>
+            
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Classes.StreetSign.ISIS#GME#Dsml#SignLanguage#Interfaces#StreetSign#Attributes">
+             <summary>
+            <para>Contains the domain specific attributes.</para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Classes.StreetSign.AllReferencedBy">
+            
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Classes.StreetSign.AllMembersOfSet">
+            
+        </member>
+        <member name="T:ISIS.GME.Dsml.SignLanguage.Classes.StreetSign.DefaultRole">
+            Default role
+        </member>
+        <member name="F:ISIS.GME.Dsml.SignLanguage.Classes.StreetSign.DefaultRole.StreetSign">
+            <summary>
+            Default role
+            </summary>
+        </member>
+        <member name="T:ISIS.GME.Dsml.SignLanguage.Classes.StreetSign.Roles">
+             <summary>
+            <para>WARNING: This part is still under developement.</para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="T:ISIS.GME.Dsml.SignLanguage.Classes.StreetSign.Roles.Signs">
+            Roles for Signs parent.
+        </member>
+        <member name="F:ISIS.GME.Dsml.SignLanguage.Classes.StreetSign.Roles.Signs.StreetSign">
+            <summary>
+            StreetSign
+            </summary>
+        </member>
+        <member name="T:ISIS.GME.Dsml.SignLanguage.Classes.StreetSign.SrcConnectionsClass">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="M:ISIS.GME.Dsml.SignLanguage.Classes.StreetSign.SrcConnectionsClass.#ctor(GME.MGA.IMgaObject)">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="T:ISIS.GME.Dsml.SignLanguage.Classes.StreetSign.DstConnectionsClass">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="M:ISIS.GME.Dsml.SignLanguage.Classes.StreetSign.DstConnectionsClass.#ctor(GME.MGA.IMgaObject)">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="T:ISIS.GME.Dsml.SignLanguage.Classes.StreetSign.AttributesClass">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="M:ISIS.GME.Dsml.SignLanguage.Classes.StreetSign.AttributesClass.#ctor(GME.MGA.IMgaObject)">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Classes.StreetSign.AttributesClass.StreetSignTypes">
+            <summary>
+            <para>StreetSignTypes attribute</para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Classes.StreetSign.AttributesClass.StreetSignIconMap">
+            <summary>
+            <para>StreetSignIconMap attribute</para>
+            <para>Create a list that assigns icons to each item in the enumeration ( Sign type string: icon filename ).</para>
+            </summary>
+        </member>
+        <member name="T:ISIS.GME.Dsml.SignLanguage.Classes.StreetSign.AttributesClass.StreetSignTypes_enum">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="F:ISIS.GME.Dsml.SignLanguage.Classes.StreetSign.AttributesClass.StreetSignTypes_enum.Stop">
+            <summary>
+            Stop
+            </summary>
+        </member>
+        <member name="F:ISIS.GME.Dsml.SignLanguage.Classes.StreetSign.AttributesClass.StreetSignTypes_enum.Yield">
+            <summary>
+            Yield
+            </summary>
+        </member>
+        <member name="F:ISIS.GME.Dsml.SignLanguage.Classes.StreetSign.AttributesClass.StreetSignTypes_enum.Crosswalk">
+            <summary>
+            Crosswalk
+            </summary>
+        </member>
+        <member name="T:ISIS.GME.Dsml.SignLanguage.Classes.StreetSign.ReferencedByClass">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="M:ISIS.GME.Dsml.SignLanguage.Classes.StreetSign.ReferencedByClass.#ctor(GME.MGA.IMgaObject)">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="T:ISIS.GME.Dsml.SignLanguage.Classes.StreetSign.MembersOfSetClass">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="M:ISIS.GME.Dsml.SignLanguage.Classes.StreetSign.MembersOfSetClass.#ctor(GME.MGA.IMgaObject)">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="T:ISIS.GME.Dsml.SignLanguage.Classes.Signs">
+            <summary>
+            </summary>
+        </member>
+        <member name="T:ISIS.GME.Dsml.SignLanguage.Interfaces.Signs">
+            <summary>
+            <para>Signs interface</para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Interfaces.Signs.AllSrcConnections">
+             <summary>
+            <para>Contains the domain specific source end point of this connection.</para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Interfaces.Signs.SrcConnections">
+             <summary>
+            <para>Retrieves all connections, which have this object as a DESTINATION.</para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Interfaces.Signs.AllDstConnections">
+             <summary>
+            <para>Contains the domain specific destination end point of this connection.</para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Interfaces.Signs.DstConnections">
+             <summary>
+            <para>Retrieves all connections, which have this object as a SOURCE.</para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Interfaces.Signs.ArcheType">
+             <summary>
+            <para>the object that is at the farthest position within the chain of base objects (i.e. the one which is not derived from anything).</para>
+            <para> NULL if the object is not derived.</para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Interfaces.Signs.Attributes">
+             <summary>
+            <para>Contains the domain specific attributes.</para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Interfaces.Signs.Children">
+             <summary>
+            <para>Contains the domain specific child objects.</para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Interfaces.Signs.AllChildren">
+             <summary>
+            <para>Contains all the domain specific child objects.</para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Interfaces.Signs.AllReferencedBy">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Interfaces.Signs.ReferencedBy">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Interfaces.Signs.AllMembersOfSet">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Interfaces.Signs.MembersOfSet">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="M:ISIS.GME.Dsml.SignLanguage.Classes.Signs.Create(ISIS.GME.Dsml.SignLanguage.Interfaces.RootFolder)">
+            Creates an object in the RootFolder.
+        </member>
+        <member name="M:ISIS.GME.Dsml.SignLanguage.Classes.Signs.Cast(GME.MGA.IMgaObject)">
+            <summary>
+            Gets a domain specific object from a COM object.
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Classes.Signs.ISIS#GME#Dsml#SignLanguage#Interfaces#Signs#ArcheType">
+             <summary>
+            <para>the object that is at the farthest position within the chain of base objects (i.e. the one which is not derived from anything).</para>
+            <para> NULL if the object is not derived.</para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Classes.Signs.AllSrcConnections">
+            
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Classes.Signs.AllDstConnections">
+            
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Classes.Signs.ParentContainer">
+             <summary>
+            <para>Represents the domain specific parent container.</para>
+            <para></para>
+            <para>
+            ----------------------------------------------------
+            </para>
+            <para>
+            The parent could be:
+            </para>
+            <para>
+            - RootFolder [Folder]
+            </para>
+            </summary>
+            
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Classes.Signs.ISIS#GME#Dsml#SignLanguage#Interfaces#Signs#Attributes">
+             <summary>
+            <para>Contains the domain specific attributes.</para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Classes.Signs.ISIS#GME#Dsml#SignLanguage#Interfaces#Signs#Children">
+             <summary>
+            <para>Contains the domain specific child objects.</para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Classes.Signs.AllChildren">
+             <summary>
+            <para>Contains all the domain specific child objects.</para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Classes.Signs.AllReferencedBy">
+            
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Classes.Signs.AllMembersOfSet">
+            
+        </member>
+        <member name="T:ISIS.GME.Dsml.SignLanguage.Classes.Signs.DefaultRole">
+            Default role
+        </member>
+        <member name="F:ISIS.GME.Dsml.SignLanguage.Classes.Signs.DefaultRole.Signs">
+            <summary>
+            Default role
+            </summary>
+        </member>
+        <member name="T:ISIS.GME.Dsml.SignLanguage.Classes.Signs.Roles">
+             <summary>
+            <para>WARNING: This part is still under developement.</para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="T:ISIS.GME.Dsml.SignLanguage.Classes.Signs.SrcConnectionsClass">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="M:ISIS.GME.Dsml.SignLanguage.Classes.Signs.SrcConnectionsClass.#ctor(GME.MGA.IMgaObject)">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="T:ISIS.GME.Dsml.SignLanguage.Classes.Signs.DstConnectionsClass">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="M:ISIS.GME.Dsml.SignLanguage.Classes.Signs.DstConnectionsClass.#ctor(GME.MGA.IMgaObject)">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="T:ISIS.GME.Dsml.SignLanguage.Classes.Signs.AttributesClass">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="M:ISIS.GME.Dsml.SignLanguage.Classes.Signs.AttributesClass.#ctor(GME.MGA.IMgaObject)">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="T:ISIS.GME.Dsml.SignLanguage.Classes.Signs.ChildrenClass">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="M:ISIS.GME.Dsml.SignLanguage.Classes.Signs.ChildrenClass.#ctor(GME.MGA.MgaFolder)">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="M:ISIS.GME.Dsml.SignLanguage.Classes.Signs.ChildrenClass.#ctor(GME.MGA.MgaModel)">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Classes.Signs.ChildrenClass.ParkingSignCollection">
+             <summary>
+            <para>
+            Retirves with specific kinds in the container.
+            </para>
+            </summary>
+            
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Classes.Signs.ChildrenClass.FloodSignCollection">
+             <summary>
+            <para>
+            Retirves with specific kinds in the container.
+            </para>
+            </summary>
+            
+        </member>
+        <member name="P:ISIS.GME.Dsml.SignLanguage.Classes.Signs.ChildrenClass.StreetSignCollection">
+             <summary>
+            <para>
+            Retirves with specific kinds in the container.
+            </para>
+            </summary>
+            
+        </member>
+        <member name="T:ISIS.GME.Dsml.SignLanguage.Classes.Signs.ReferencedByClass">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="M:ISIS.GME.Dsml.SignLanguage.Classes.Signs.ReferencedByClass.#ctor(GME.MGA.IMgaObject)">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="T:ISIS.GME.Dsml.SignLanguage.Classes.Signs.MembersOfSetClass">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+        <member name="M:ISIS.GME.Dsml.SignLanguage.Classes.Signs.MembersOfSetClass.#ctor(GME.MGA.IMgaObject)">
+             <summary>
+            <para></para>
+            <para></para>
+            </summary>
+        </member>
+    </members>
+</doc>

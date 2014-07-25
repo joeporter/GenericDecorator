@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE project SYSTEM "mga.dtd">
+
+<project guid="{09E6105C-50EB-4869-AFD0-5367750BE84E}" cdate="Mon Jul 21 11:41:13 2014" mdate="Mon Jul 21 11:41:13 2014" version="" metaguid="{9487D182-1B4D-44D9-96CD-5C31E759ADEF}" metaversion="" metaname="SignLanguage">
+	<name>SLTest</name>
+	<comment></comment>
+	<author></author>
+	<folder id="id-006a-00000001" relid="0x1" childrelidcntr="0x1" kind="RootFolder" guid="{8e7e0b2d-e6f6-48b6-ae63-4eb4efc414e8}">
+		<name>SLTest</name>
+		<model id="id-0065-00000001" kind="Signs" guid="{6b046878-9f4d-474a-bcdf-41f68febc198}" relid="0x1" childrelidcntr="0x3">
+			<name>Signs</name>
+			<atom id="id-0066-00000001" kind="FloodSign" role="FloodSign" guid="{6d8cfed2-58f6-43f6-b891-a00486b9629b}" relid="0x1">
+				<name>FloodSign</name>
+				<regnode name="PartRegs" status="undefined">
+					<value></value>
+					<regnode name="SignAspect" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>84,126</value>
+						</regnode>
+					</regnode>
+				</regnode>
+				<attribute kind="FloodIconMap">
+					<value>0.0: bicycle_flood0.png
+1.0: bicycle_flood1.png
+2.0: bicycle_flood2.png
+3.0: bicycle_flood3.png</value>
+				</attribute>
+				<attribute kind="FloodLevel">
+					<value>1</value>
+				</attribute>
+			</atom>
+			<atom id="id-0066-00000002" kind="ParkingSign" role="ParkingSign" guid="{a1082a57-8168-4b1a-9ece-a9f9dc73f2b7}" relid="0x2">
+				<name>ParkingSign</name>
+				<regnode name="PartRegs" status="undefined">
+					<value></value>
+					<regnode name="SignAspect" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>231,126</value>
+						</regnode>
+					</regnode>
+				</regnode>
+				<attribute kind="Parking" status="meta">
+					<value>false</value>
+				</attribute>
+				<attribute kind="ParkingIconMap">
+					<value>True: parking_yes.png
+False: parking_no.png
+</value>
+				</attribute>
+			</atom>
+			<atom id="id-0066-00000003" kind="StreetSign" role="StreetSign" guid="{f0029078-b09e-4d9e-9f5f-dbe93b4e7fe7}" relid="0x3">
+				<name>StreetSign</name>
+				<regnode name="PartRegs" status="undefined">
+					<value></value>
+					<regnode name="SignAspect" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>364,126</value>
+						</regnode>
+					</regnode>
+				</regnode>
+				<attribute kind="StreetSignIconMap">
+					<value>Stop: stop.png
+Yield: yield.png
+Crosswalk: crossing.png
+ </value>
+				</attribute>
+				<attribute kind="StreetSignTypes">
+					<value>Stop</value>
+				</attribute>
+			</atom>
+		</model>
+	</folder>
+</project>

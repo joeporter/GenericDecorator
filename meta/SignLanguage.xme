@@ -1,0 +1,997 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE project SYSTEM "mga.dtd">
+
+<project guid="{3AFB6F15-49F6-4275-96B4-0DF4C067B4E5}" cdate="Fri Jul 18 13:48:33 2014" mdate="Fri Jul 18 13:48:33 2014" version="" metaguid="{C84D2738-4519-44F2-B4C1-114F73567576}" metaversion="" metaname="MetaGME">
+	<name>SignLanguage</name>
+	<comment></comment>
+	<author></author>
+	<folder id="id-006a-00000001" relid="0x1" childrelidcntr="0x1" kind="RootFolder" guid="{73fe6c63-5802-4c03-9fe8-b87f7591f7e2}">
+		<name>SignLanguage</name>
+		<regnode name="AspectRegistry" status="undefined">
+			<value></value>
+			<regnode name="AspectMetaRefs" status="undefined">
+				<value></value>
+				<regnode name="SignAspect" status="undefined">
+					<value></value>
+					<regnode name="MetaRef" status="undefined">
+						<value></value>
+						<regnode name="Signs" isopaque="yes">
+							<value>1014</value>
+						</regnode>
+					</regnode>
+				</regnode>
+			</regnode>
+		</regnode>
+		<regnode name="MetaGME_Options" status="undefined">
+			<value></value>
+			<regnode name="GeneratedConstraints" status="undefined">
+				<value></value>
+				<regnode name="ConnectionEndEventMask" isopaque="yes">
+					<value>0x00000000</value>
+				</regnode>
+				<regnode name="FolderContainmentEventMask" isopaque="yes">
+					<value>0x00000000</value>
+				</regnode>
+				<regnode name="Priority" isopaque="yes">
+					<value>1</value>
+				</regnode>
+				<regnode name="RegularContainmentEventMask" isopaque="yes">
+					<value>0x00000000</value>
+				</regnode>
+			</regnode>
+		</regnode>
+		<regnode name="SignLanguage" status="undefined">
+			<value></value>
+			<regnode name="FloodIconMap-10-FieldAttribute" status="undefined">
+				<value></value>
+				<regnode name="MetaRef" isopaque="yes">
+					<value>1001</value>
+				</regnode>
+			</regnode>
+			<regnode name="FloodLevel-e-FieldAttribute" status="undefined">
+				<value></value>
+				<regnode name="MetaRef" isopaque="yes">
+					<value>1002</value>
+				</regnode>
+			</regnode>
+			<regnode name="FloodSign-3-Atom" status="undefined">
+				<value></value>
+				<regnode name="MetaRef" isopaque="yes">
+					<value>1007</value>
+					<regnode name="Signs" status="undefined">
+						<value></value>
+						<regnode name="FloodSign" isopaque="yes">
+							<value>1011</value>
+							<regnode name="SignAspect" isopaque="yes">
+								<value>1015</value>
+							</regnode>
+						</regnode>
+					</regnode>
+				</regnode>
+				<regnode name="PrimaryAspects" status="undefined">
+					<value></value>
+					<regnode name="Signs:FloodSign" status="undefined">
+						<value></value>
+						<regnode name="SignAspect" isopaque="yes">
+							<value>yes</value>
+						</regnode>
+					</regnode>
+				</regnode>
+			</regnode>
+			<regnode name="Parking-12-BooleanAttribute" status="undefined">
+				<value></value>
+				<regnode name="MetaRef" isopaque="yes">
+					<value>1003</value>
+				</regnode>
+			</regnode>
+			<regnode name="ParkingIconMap-13-FieldAttribute" status="undefined">
+				<value></value>
+				<regnode name="MetaRef" isopaque="yes">
+					<value>1004</value>
+				</regnode>
+			</regnode>
+			<regnode name="ParkingSign-6-Atom" status="undefined">
+				<value></value>
+				<regnode name="MetaRef" isopaque="yes">
+					<value>1008</value>
+					<regnode name="Signs" status="undefined">
+						<value></value>
+						<regnode name="ParkingSign" isopaque="yes">
+							<value>1012</value>
+							<regnode name="SignAspect" isopaque="yes">
+								<value>1016</value>
+							</regnode>
+						</regnode>
+					</regnode>
+				</regnode>
+				<regnode name="PrimaryAspects" status="undefined">
+					<value></value>
+					<regnode name="Signs:ParkingSign" status="undefined">
+						<value></value>
+						<regnode name="SignAspect" isopaque="yes">
+							<value>yes</value>
+						</regnode>
+					</regnode>
+				</regnode>
+			</regnode>
+			<regnode name="Signs-1-Model" status="undefined">
+				<value></value>
+				<regnode name="MetaRef" isopaque="yes">
+					<value>1010</value>
+				</regnode>
+			</regnode>
+			<regnode name="StreetSign-2-Atom" status="undefined">
+				<value></value>
+				<regnode name="MetaRef" isopaque="yes">
+					<value>1009</value>
+					<regnode name="Signs" status="undefined">
+						<value></value>
+						<regnode name="StreetSign" isopaque="yes">
+							<value>1013</value>
+							<regnode name="SignAspect" isopaque="yes">
+								<value>1017</value>
+							</regnode>
+						</regnode>
+					</regnode>
+				</regnode>
+				<regnode name="PrimaryAspects" status="undefined">
+					<value></value>
+					<regnode name="Signs:StreetSign" status="undefined">
+						<value></value>
+						<regnode name="SignAspect" isopaque="yes">
+							<value>yes</value>
+						</regnode>
+					</regnode>
+				</regnode>
+			</regnode>
+			<regnode name="StreetSignIconMap-b-FieldAttribute" status="undefined">
+				<value></value>
+				<regnode name="MetaRef" isopaque="yes">
+					<value>1005</value>
+				</regnode>
+			</regnode>
+			<regnode name="StreetSignTypes-a-EnumAttribute" status="undefined">
+				<value></value>
+				<regnode name="MetaRef" isopaque="yes">
+					<value>1006</value>
+				</regnode>
+			</regnode>
+		</regnode>
+		<model id="id-0065-00000001" kind="ParadigmSheet" guid="{96078fbf-7ca2-4933-899d-1c044e32459e}" relid="0x1" childrelidcntr="0x15">
+			<name>SignLanguage</name>
+			<atom id="id-0066-00000001" kind="Model" role="Model" guid="{9754fce0-4d7d-4419-b76c-8f666eb56377}" relid="0x1">
+				<name>Signs</name>
+				<regnode name="PartRegs" status="undefined">
+					<value></value>
+					<regnode name="All" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>315,21</value>
+						</regnode>
+					</regnode>
+					<regnode name="Attributes" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>420,126</value>
+						</regnode>
+					</regnode>
+					<regnode name="ClassDiagram" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>177,21</value>
+						</regnode>
+					</regnode>
+					<regnode name="Constraints" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>420,126</value>
+						</regnode>
+					</regnode>
+					<regnode name="Visualization" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>420,126</value>
+						</regnode>
+					</regnode>
+				</regnode>
+				<attribute kind="AutoRouterPref" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="Decorator" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="DisplayedName" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="GeneralPreferences" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="GradientFillColor" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="GradientFillDirection" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="HelpURL" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="Icon" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="InRootFolder">
+					<value>true</value>
+				</attribute>
+				<attribute kind="InstanceIcon" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="IsAbstract" status="meta">
+					<value>false</value>
+				</attribute>
+				<attribute kind="IsGradientFillEnabled" status="meta">
+					<value>false</value>
+				</attribute>
+				<attribute kind="IsHotspotEnabled" status="meta">
+					<value>true</value>
+				</attribute>
+				<attribute kind="IsModelAutoRouted" status="meta">
+					<value>true</value>
+				</attribute>
+				<attribute kind="IsNameEnabled" status="meta">
+					<value>true</value>
+				</attribute>
+				<attribute kind="IsResizable" status="meta">
+					<value>false</value>
+				</attribute>
+				<attribute kind="IsRoundRectangleEnabled" status="meta">
+					<value>false</value>
+				</attribute>
+				<attribute kind="IsShadowCastEnabled" status="meta">
+					<value>false</value>
+				</attribute>
+				<attribute kind="IsTypeInfoShown" status="meta">
+					<value>true</value>
+				</attribute>
+				<attribute kind="IsTypeShown" status="meta">
+					<value>false</value>
+				</attribute>
+				<attribute kind="NamePosition" status="meta">
+					<value>4</value>
+				</attribute>
+				<attribute kind="NameWrapNum" status="meta">
+					<value>0</value>
+				</attribute>
+				<attribute kind="PortIcon" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="RoundRectangleRadius" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="ShadowColor" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="ShadowDirection" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="ShadowThickness" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="SubTypeIcon" status="meta">
+					<value></value>
+				</attribute>
+			</atom>
+			<atom id="id-0066-00000002" kind="Atom" role="Atom" guid="{2bac6a85-a5b2-4a40-a179-7efaced53c29}" relid="0x2">
+				<name>StreetSign</name>
+				<regnode name="PartRegs" status="undefined">
+					<value></value>
+					<regnode name="All" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>567,168</value>
+						</regnode>
+					</regnode>
+					<regnode name="Attributes" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>308,266</value>
+						</regnode>
+					</regnode>
+					<regnode name="ClassDiagram" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>35,126</value>
+						</regnode>
+					</regnode>
+					<regnode name="Constraints" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>392,266</value>
+						</regnode>
+					</regnode>
+					<regnode name="Visualization" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>392,266</value>
+						</regnode>
+					</regnode>
+				</regnode>
+				<attribute kind="AutoRouterPref" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="Decorator">
+					<value>MGA.Decorator.GenericDecorator</value>
+				</attribute>
+				<attribute kind="DisplayedName" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="GeneralPreferences" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="GradientFillColor" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="GradientFillDirection" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="HelpURL" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="Icon">
+					<value>stop.png</value>
+				</attribute>
+				<attribute kind="InRootFolder" status="meta">
+					<value>false</value>
+				</attribute>
+				<attribute kind="InstanceIcon" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="IsAbstract" status="meta">
+					<value>false</value>
+				</attribute>
+				<attribute kind="IsGradientFillEnabled" status="meta">
+					<value>false</value>
+				</attribute>
+				<attribute kind="IsHotspotEnabled" status="meta">
+					<value>true</value>
+				</attribute>
+				<attribute kind="IsNameEnabled" status="meta">
+					<value>true</value>
+				</attribute>
+				<attribute kind="IsResizable" status="meta">
+					<value>false</value>
+				</attribute>
+				<attribute kind="IsRoundRectangleEnabled" status="meta">
+					<value>false</value>
+				</attribute>
+				<attribute kind="IsShadowCastEnabled" status="meta">
+					<value>false</value>
+				</attribute>
+				<attribute kind="IsTypeShown" status="meta">
+					<value>false</value>
+				</attribute>
+				<attribute kind="NamePosition" status="meta">
+					<value>4</value>
+				</attribute>
+				<attribute kind="NameWrapNum" status="meta">
+					<value>0</value>
+				</attribute>
+				<attribute kind="PortIcon" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="RoundRectangleRadius" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="ShadowColor" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="ShadowDirection" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="ShadowThickness" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="SubTypeIcon" status="meta">
+					<value></value>
+				</attribute>
+			</atom>
+			<atom id="id-0066-00000003" kind="Atom" role="Atom" guid="{a78a7af1-54e8-458e-9781-8b95cdd7442a}" relid="0x3">
+				<name>FloodSign</name>
+				<regnode name="PartRegs" status="undefined">
+					<value></value>
+					<regnode name="All" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>343,252</value>
+						</regnode>
+					</regnode>
+					<regnode name="Attributes" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>518,266</value>
+						</regnode>
+					</regnode>
+					<regnode name="ClassDiagram" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>259,126</value>
+						</regnode>
+					</regnode>
+					<regnode name="Constraints" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>490,266</value>
+						</regnode>
+					</regnode>
+					<regnode name="Visualization" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>490,266</value>
+						</regnode>
+					</regnode>
+				</regnode>
+				<attribute kind="AutoRouterPref" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="Decorator">
+					<value>MGA.Decorator.GenericDecorator</value>
+				</attribute>
+				<attribute kind="DisplayedName" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="GeneralPreferences" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="GradientFillColor" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="GradientFillDirection" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="HelpURL" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="Icon">
+					<value>bicycle_flood1.png</value>
+				</attribute>
+				<attribute kind="InRootFolder" status="meta">
+					<value>false</value>
+				</attribute>
+				<attribute kind="InstanceIcon" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="IsAbstract" status="meta">
+					<value>false</value>
+				</attribute>
+				<attribute kind="IsGradientFillEnabled" status="meta">
+					<value>false</value>
+				</attribute>
+				<attribute kind="IsHotspotEnabled" status="meta">
+					<value>true</value>
+				</attribute>
+				<attribute kind="IsNameEnabled" status="meta">
+					<value>true</value>
+				</attribute>
+				<attribute kind="IsResizable" status="meta">
+					<value>false</value>
+				</attribute>
+				<attribute kind="IsRoundRectangleEnabled" status="meta">
+					<value>false</value>
+				</attribute>
+				<attribute kind="IsShadowCastEnabled" status="meta">
+					<value>false</value>
+				</attribute>
+				<attribute kind="IsTypeShown" status="meta">
+					<value>false</value>
+				</attribute>
+				<attribute kind="NamePosition" status="meta">
+					<value>4</value>
+				</attribute>
+				<attribute kind="NameWrapNum" status="meta">
+					<value>0</value>
+				</attribute>
+				<attribute kind="PortIcon" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="RoundRectangleRadius" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="ShadowColor" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="ShadowDirection" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="ShadowThickness" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="SubTypeIcon" status="meta">
+					<value></value>
+				</attribute>
+			</atom>
+			<atom id="id-0066-00000004" kind="Atom" role="Atom" guid="{8d1a6e35-49d3-452b-8a14-206aec8258c7}" relid="0x6">
+				<name>ParkingSign</name>
+				<regnode name="PartRegs" status="undefined">
+					<value></value>
+					<regnode name="All" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>84,168</value>
+						</regnode>
+					</regnode>
+					<regnode name="Attributes" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>721,266</value>
+						</regnode>
+					</regnode>
+					<regnode name="ClassDiagram" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>149,245</value>
+						</regnode>
+					</regnode>
+					<regnode name="Constraints" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>616,266</value>
+						</regnode>
+					</regnode>
+					<regnode name="Visualization" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>616,266</value>
+						</regnode>
+					</regnode>
+				</regnode>
+				<attribute kind="AutoRouterPref" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="Decorator">
+					<value>MGA.Decorator.GenericDecorator</value>
+				</attribute>
+				<attribute kind="DisplayedName" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="GeneralPreferences" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="GradientFillColor" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="GradientFillDirection" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="HelpURL" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="Icon">
+					<value>parking_no.png</value>
+				</attribute>
+				<attribute kind="InRootFolder" status="meta">
+					<value>false</value>
+				</attribute>
+				<attribute kind="InstanceIcon" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="IsAbstract" status="meta">
+					<value>false</value>
+				</attribute>
+				<attribute kind="IsGradientFillEnabled" status="meta">
+					<value>false</value>
+				</attribute>
+				<attribute kind="IsHotspotEnabled" status="meta">
+					<value>true</value>
+				</attribute>
+				<attribute kind="IsNameEnabled" status="meta">
+					<value>true</value>
+				</attribute>
+				<attribute kind="IsResizable" status="meta">
+					<value>false</value>
+				</attribute>
+				<attribute kind="IsRoundRectangleEnabled" status="meta">
+					<value>false</value>
+				</attribute>
+				<attribute kind="IsShadowCastEnabled" status="meta">
+					<value>false</value>
+				</attribute>
+				<attribute kind="IsTypeShown" status="meta">
+					<value>false</value>
+				</attribute>
+				<attribute kind="NamePosition" status="meta">
+					<value>4</value>
+				</attribute>
+				<attribute kind="NameWrapNum" status="meta">
+					<value>0</value>
+				</attribute>
+				<attribute kind="PortIcon" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="RoundRectangleRadius" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="ShadowColor" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="ShadowDirection" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="ShadowThickness" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="SubTypeIcon" status="meta">
+					<value></value>
+				</attribute>
+			</atom>
+			<atom id="id-0066-00000005" kind="EnumAttribute" role="EnumAttribute" guid="{180727d7-3278-4911-88d6-f7fa8c77b86e}" relid="0xa">
+				<name>StreetSignTypes</name>
+				<regnode name="PartRegs" status="undefined">
+					<value></value>
+					<regnode name="All" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>651,280</value>
+						</regnode>
+					</regnode>
+					<regnode name="Attributes" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>336,364</value>
+						</regnode>
+					</regnode>
+				</regnode>
+				<attribute kind="DefaultItem">
+					<value>Stop</value>
+				</attribute>
+				<attribute kind="GlobalScope" status="meta">
+					<value>true</value>
+				</attribute>
+				<attribute kind="Help" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="IsViewable" status="meta">
+					<value>true</value>
+				</attribute>
+				<attribute kind="MenuItems">
+					<value>Stop
+Yield
+Crosswalk
+</value>
+				</attribute>
+				<attribute kind="Prompt" status="meta">
+					<value></value>
+				</attribute>
+			</atom>
+			<atom id="id-0066-00000006" kind="FieldAttribute" role="FieldAttribute" guid="{c6da95d4-4664-4e35-bf5c-b7417cba80a7}" relid="0xb">
+				<name>StreetSignIconMap</name>
+				<regnode name="PartRegs" status="undefined">
+					<value></value>
+					<regnode name="All" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>518,280</value>
+						</regnode>
+					</regnode>
+					<regnode name="Attributes" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>308,441</value>
+						</regnode>
+					</regnode>
+				</regnode>
+				<attribute kind="ContentType" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="DataType" status="meta">
+					<value>string</value>
+				</attribute>
+				<attribute kind="FieldDefault">
+					<value>Stop: stop.png</value>
+				</attribute>
+				<attribute kind="GlobalScope" status="meta">
+					<value>true</value>
+				</attribute>
+				<attribute kind="Help">
+					<value>Create a list that assigns icons to each item in the enumeration ( Sign type string: icon filename ).</value>
+				</attribute>
+				<attribute kind="IsViewable" status="meta">
+					<value>true</value>
+				</attribute>
+				<attribute kind="Multiline">
+					<value>99</value>
+				</attribute>
+				<attribute kind="Prompt" status="meta">
+					<value></value>
+				</attribute>
+			</atom>
+			<atom id="id-0066-00000007" kind="FieldAttribute" role="FieldAttribute" guid="{b683fb4f-e7a5-4878-9049-214121b9d422}" relid="0xe">
+				<name>FloodLevel</name>
+				<regnode name="PartRegs" status="undefined">
+					<value></value>
+					<regnode name="All" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>406,385</value>
+						</regnode>
+					</regnode>
+					<regnode name="Attributes" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>511,357</value>
+						</regnode>
+					</regnode>
+				</regnode>
+				<attribute kind="ContentType" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="DataType">
+					<value>double</value>
+				</attribute>
+				<attribute kind="FieldDefault">
+					<value>1.0</value>
+				</attribute>
+				<attribute kind="GlobalScope" status="meta">
+					<value>true</value>
+				</attribute>
+				<attribute kind="Help">
+					<value>Enter flood level in feet.</value>
+				</attribute>
+				<attribute kind="IsViewable" status="meta">
+					<value>true</value>
+				</attribute>
+				<attribute kind="Multiline" status="meta">
+					<value>1</value>
+				</attribute>
+				<attribute kind="Prompt" status="meta">
+					<value></value>
+				</attribute>
+			</atom>
+			<atom id="id-0066-00000009" kind="FieldAttribute" role="FieldAttribute" guid="{3bda7a8d-8be1-4087-ac14-e5aeaf781c72}" relid="0x10">
+				<name>FloodIconMap</name>
+				<regnode name="PartRegs" status="undefined">
+					<value></value>
+					<regnode name="All" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>273,385</value>
+						</regnode>
+					</regnode>
+					<regnode name="Attributes" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>525,441</value>
+						</regnode>
+					</regnode>
+				</regnode>
+				<attribute kind="ContentType" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="DataType" status="meta">
+					<value>string</value>
+				</attribute>
+				<attribute kind="FieldDefault">
+					<value>1.0: flood1.png</value>
+				</attribute>
+				<attribute kind="GlobalScope" status="meta">
+					<value>true</value>
+				</attribute>
+				<attribute kind="Help">
+					<value>List of flood levels and icons ( level (in ft): icon filename ).</value>
+				</attribute>
+				<attribute kind="IsViewable" status="meta">
+					<value>true</value>
+				</attribute>
+				<attribute kind="Multiline">
+					<value>99</value>
+				</attribute>
+				<attribute kind="Prompt" status="meta">
+					<value></value>
+				</attribute>
+			</atom>
+			<atom id="id-0066-0000000a" kind="BooleanAttribute" role="BooleanAttribute" guid="{19a1e9a6-c32e-42d3-8316-d257981f0b3d}" relid="0x12">
+				<name>Parking</name>
+				<regnode name="PartRegs" status="undefined">
+					<value></value>
+					<regnode name="All" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>168,280</value>
+						</regnode>
+					</regnode>
+					<regnode name="Attributes" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>707,357</value>
+						</regnode>
+					</regnode>
+				</regnode>
+				<attribute kind="BooleanDefault" status="meta">
+					<value>false</value>
+				</attribute>
+				<attribute kind="GlobalScope" status="meta">
+					<value>true</value>
+				</attribute>
+				<attribute kind="Help" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="IsViewable" status="meta">
+					<value>true</value>
+				</attribute>
+				<attribute kind="Prompt" status="meta">
+					<value></value>
+				</attribute>
+			</atom>
+			<atom id="id-0066-0000000b" kind="FieldAttribute" role="FieldAttribute" guid="{a4a60f65-627d-4dee-a581-20b32908d9af}" relid="0x13">
+				<name>ParkingIconMap</name>
+				<regnode name="PartRegs" status="undefined">
+					<value></value>
+					<regnode name="All" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>21,280</value>
+						</regnode>
+					</regnode>
+					<regnode name="Attributes" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>714,441</value>
+						</regnode>
+					</regnode>
+				</regnode>
+				<attribute kind="ContentType" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="DataType" status="meta">
+					<value>string</value>
+				</attribute>
+				<attribute kind="FieldDefault">
+					<value>True: parking_yes.png</value>
+				</attribute>
+				<attribute kind="GlobalScope" status="meta">
+					<value>true</value>
+				</attribute>
+				<attribute kind="Help">
+					<value>Map from boolean to icon filename (boolean value: icon_filename).</value>
+				</attribute>
+				<attribute kind="IsViewable" status="meta">
+					<value>true</value>
+				</attribute>
+				<attribute kind="Multiline">
+					<value>2</value>
+				</attribute>
+				<attribute kind="Prompt" status="meta">
+					<value></value>
+				</attribute>
+			</atom>
+			<connection id="id-0068-00000001" kind="Containment" role="Containment" guid="{2bdb68d6-efac-424a-b110-2d1640988c09}" relid="0x4">
+				<name>Containment</name>
+				<regnode name="autorouterPref" isopaque="yes">
+					<value>Ns</value>
+				</regnode>
+				<attribute kind="Cardinality" status="meta">
+					<value>0..*</value>
+				</attribute>
+				<attribute kind="IsPort" status="meta">
+					<value>false</value>
+				</attribute>
+				<attribute kind="Rolename" status="meta">
+					<value></value>
+				</attribute>
+				<connpoint role="dst" target="id-0066-00000001"/>
+				<connpoint role="src" target="id-0066-00000002"/>
+			</connection>
+			<connection id="id-0068-00000002" kind="Containment" role="Containment" guid="{fffd0ccd-0796-4a3b-bb74-80f54d6dc61b}" relid="0x5">
+				<name>Containment</name>
+				<regnode name="autorouterPref" isopaque="yes">
+					<value>Ns</value>
+				</regnode>
+				<attribute kind="Cardinality" status="meta">
+					<value>0..*</value>
+				</attribute>
+				<attribute kind="IsPort" status="meta">
+					<value>false</value>
+				</attribute>
+				<attribute kind="Rolename" status="meta">
+					<value></value>
+				</attribute>
+				<connpoint role="dst" target="id-0066-00000001"/>
+				<connpoint role="src" target="id-0066-00000003"/>
+			</connection>
+			<connection id="id-0068-00000003" kind="Containment" role="Containment" guid="{1df80a97-f232-459b-ba1b-ab7224dc22a4}" relid="0x7">
+				<name>Containment</name>
+				<regnode name="autorouterPref" isopaque="yes">
+					<value>sN</value>
+				</regnode>
+				<attribute kind="Cardinality" status="meta">
+					<value>0..*</value>
+				</attribute>
+				<attribute kind="IsPort" status="meta">
+					<value>false</value>
+				</attribute>
+				<attribute kind="Rolename" status="meta">
+					<value></value>
+				</attribute>
+				<connpoint role="dst" target="id-0066-00000001"/>
+				<connpoint role="src" target="id-0066-00000004"/>
+			</connection>
+			<connection id="id-0068-00000004" kind="HasAspect" role="HasAspect" guid="{54a67bfd-f077-445f-a492-4ba9080122d5}" relid="0x9">
+				<name>HasAspect</name>
+				<regnode name="autorouterPref" isopaque="yes">
+					<value>Ew</value>
+				</regnode>
+				<connpoint role="dst" target="id-0066-00000001"/>
+				<connpoint role="src" target="id-0069-00000001"/>
+			</connection>
+			<connection id="id-0068-00000005" kind="HasAttribute" role="HasAttribute" guid="{b331e60c-3b24-4e08-89b5-33dd3f723acc}" relid="0xc">
+				<name>HasAttribute</name>
+				<regnode name="autorouterPref" isopaque="yes">
+					<value>Ns</value>
+				</regnode>
+				<connpoint role="dst" target="id-0066-00000002"/>
+				<connpoint role="src" target="id-0066-00000005"/>
+			</connection>
+			<connection id="id-0068-00000006" kind="HasAttribute" role="HasAttribute" guid="{bfa35a05-7af0-4756-b846-be50559831d9}" relid="0xd">
+				<name>HasAttribute</name>
+				<regnode name="autorouterPref" isopaque="yes">
+					<value>Ns</value>
+				</regnode>
+				<connpoint role="dst" target="id-0066-00000002"/>
+				<connpoint role="src" target="id-0066-00000006"/>
+			</connection>
+			<connection id="id-0068-00000007" kind="HasAttribute" role="HasAttribute" guid="{6103b157-b40c-493f-9629-3ae601ae5f5c}" relid="0xf">
+				<name>HasAttribute</name>
+				<regnode name="autorouterPref" isopaque="yes">
+					<value>Ns</value>
+				</regnode>
+				<connpoint role="dst" target="id-0066-00000003"/>
+				<connpoint role="src" target="id-0066-00000007"/>
+			</connection>
+			<connection id="id-0068-00000008" kind="HasAttribute" role="HasAttribute" guid="{b47d6224-582b-4c45-8934-d67a188aab7e}" relid="0x11">
+				<name>HasAttribute</name>
+				<regnode name="autorouterPref" isopaque="yes">
+					<value>Ns</value>
+				</regnode>
+				<connpoint role="dst" target="id-0066-00000003"/>
+				<connpoint role="src" target="id-0066-00000009"/>
+			</connection>
+			<connection id="id-0068-00000009" kind="HasAttribute" role="HasAttribute" guid="{c7a00ed8-cab5-4c9b-a8a1-6ad1237be4c9}" relid="0x14">
+				<name>HasAttribute</name>
+				<regnode name="autorouterPref" isopaque="yes">
+					<value>Ns</value>
+				</regnode>
+				<connpoint role="dst" target="id-0066-00000004"/>
+				<connpoint role="src" target="id-0066-0000000a"/>
+			</connection>
+			<connection id="id-0068-0000000a" kind="HasAttribute" role="HasAttribute" guid="{53ec626c-8010-4a58-8355-71ea09ec679b}" relid="0x15">
+				<name>HasAttribute</name>
+				<regnode name="autorouterPref" isopaque="yes">
+					<value>Ns</value>
+				</regnode>
+				<connpoint role="dst" target="id-0066-00000004"/>
+				<connpoint role="src" target="id-0066-0000000b"/>
+			</connection>
+			<set id="id-0069-00000001" kind="Aspect" role="Aspect" guid="{e647d401-f695-4453-b036-b24ba5287116}" relid="0x8" members="id-0066-00000001 id-0066-00000002 id-0066-00000003 id-0066-00000004">
+				<name>SignAspect</name>
+				<regnode name="PartRegs" status="undefined">
+					<value></value>
+					<regnode name="All" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>168,21</value>
+						</regnode>
+					</regnode>
+					<regnode name="Visualization" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>252,126</value>
+						</regnode>
+					</regnode>
+				</regnode>
+				<attribute kind="DisplayedName" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="ReadOnly" status="meta">
+					<value>false</value>
+				</attribute>
+			</set>
+		</model>
+	</folder>
+</project>

@@ -97,6 +97,11 @@ namespace CSharpDecorator.Framework
             Active = isActive;
         }
 
+        public override void SetParam(string Name, object value)
+        {
+            
+        }
+
        
     }
 }

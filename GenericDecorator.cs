@@ -12,8 +12,8 @@ using System.Diagnostics;
 
 namespace GenericDecorator
 {
-    
-    [Guid("504827B5-B2B2-4795-B1F9-474BB8512ABD"),
+
+    [Guid("7E372102-5B5C-4272-A869-C0252D167F72"),
      ProgId("MGA.Decorator.GenericDecorator"),
      ClassInterface(ClassInterfaceType.AutoDual)]
     [ComVisible(true)]
@@ -22,12 +22,10 @@ namespace GenericDecorator
         
         public  GenericDecorator(IMgaElementDecoratorEvents events)
         {
-
         }
 
         public  GenericDecorator()
         {
-
         }
 
         ~GenericDecorator()
@@ -37,17 +35,10 @@ namespace GenericDecorator
             GC.Collect();
         }
 
-
-        
-
         private MgaFCO _currentObj;
         private MgaMetaFCO _metaobj;
 
         private DecoratorBase decoratorBase;
-
-
-        
-        
 
         #region IMgaElementDecorator
 
@@ -160,24 +151,6 @@ namespace GenericDecorator
             }
 
             IBackroundDraw bgdraw = null;
-
-            if (_metaobj.ObjType == objtype_enum.OBJTYPE_MODEL)
-            {
-
-                bgdraw = new ContainerBackgroundDraw(100, 50);
-            }
-            else if (_metaobj.ObjType == objtype_enum.OBJTYPE_ATOM)
-            {
-                bgdraw = new AtomBackgroundDraw();
-            }
-            else if (_metaobj.ObjType == objtype_enum.OBJTYPE_SET)
-            {
-                bgdraw = new SetBackgroundDraw();
-            }
-            else if (_metaobj.ObjType == objtype_enum.OBJTYPE_REFERENCE)
-            {
-                bgdraw = new RefBackgroundDraw();
-            }
 
             decoratorBase = new DefaultDecorator(this, parentHwnd, _currentObj, meta, _metaobj, Project, bgdraw);
             

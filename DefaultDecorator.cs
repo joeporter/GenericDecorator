@@ -38,7 +38,7 @@ namespace GenericDecorator
     {
 
 
-        public readonly string defaultPortIconStr = string.Format("F6Decorator.Images.{0}", "generalport.emf");
+        public readonly string defaultPortIconStr = string.Format("GenericDecorator.Images.{0}", "generalport.emf");
 
         public DefaultDecorator(GenericDecorator decorator,
             IntPtr parentHwnd, MgaFCO fco, MgaMetaPart metaPart, MgaMetaFCO metafco, MgaProject project, IBackroundDraw bgdraw, Type formType = null) :
@@ -67,7 +67,6 @@ namespace GenericDecorator
 
         List<Port> portList;
         Dictionary<MgaFCO, Rectangle> portLayout;
-  
 
         List<Port> leftPorts;
         List<Port> rightPorts;
@@ -85,7 +84,6 @@ namespace GenericDecorator
         {
             portLayout = new Dictionary<MgaFCO, Rectangle>();
         
-
             int maxLeftWidth = 0;
             int maxLeftLabelWidth = 0;
 
@@ -451,64 +449,11 @@ namespace GenericDecorator
 
         protected virtual bool CheckPortRule(FilterCondition fc)
         {
-            if (fc.aspectName == "Deployment" && fc.parentKind != null && fc.parentKind == "Application" && MgaFCO!=null &&  MgaFCO.MetaRole.Name =="ComponentImplementation")
+            /* Here we can override whether or not ports should be displayed 
+            if (MgaFCO != null && MgaFCO.MetaRole.Name == "some MetaGME class name")
             {
-               return false;
-            }
-
-            if (MgaFCO != null && MgaFCO.MetaRole.Name == "ComponentImplementation")
-            {
-                if (fc.parentKind == null)
-                    return false;
-                else
-                {
-                   
-                    if (fc.parentKind != "ImplementationList" && fc.portFCO.MetaRole.Name == "ComponentDefinition")
-                    {
-                        return false;
-                    }
-                    else if (fc.parentKind == "ImplementationList" && fc.portFCO.MetaRole.Name != "ComponentDefinition")
-                    {
-                        return false;
-                    }
-                }
-
-            }
-
-           
-           
-            if (MgaFCO != null && MgaFCO.MetaRole.Name == "ClusterConfigurationsRef")
-            {
-                //if (fc.roleName == "ModuleRef")
-                {
-                    MgaObject p;
-                    objtype_enum t;
-                    MgaFCO.GetParent(out p, out t);
-                    MgaFCOs children = ((MgaModel)p).GetChildrenOfKind("ClusterConfigurationRef");
-                    foreach (IMgaObject item in children)
-                    {
-                        if (((MgaReference)item).Referred != null && ((MgaReference)item).Referred.MetaRole.Name=="ClusterConfiguration")
-                        {
-                            if (((MgaReference)item).Referred is MgaSet)
-                            {
-                                MgaSet s = (MgaSet)((MgaReference)item).Referred;
-                                MgaFCOs x = s.Members;
-                                foreach (MgaFCO temp in x)
-                                {
-                                    if (temp.ID == fc.portFCO.ID)
-                                        return true;
-                                }
-                                return false;
-                            }
-                        }
-                        else
-                        {
-                            return false;
-                        }
-                    }
-                    return false;
-                }
-            }
+                return false;
+            } */
             return true;
         }
 
